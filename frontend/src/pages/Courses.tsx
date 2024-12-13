@@ -8,7 +8,7 @@ const Courses: React.FC = () => {
     if (loading) return <p>Loading recipes...</p>;
 
     return (
-        <div className = "home">
+        <div className = "courses">
             {courses.map((course) => (
                 <RecipeCard key={course._id} course={course} />
             ))}

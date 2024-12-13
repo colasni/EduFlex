@@ -15,9 +15,9 @@ const RegisterUser: React.FC = () => {
         e.preventDefault();
         try {
         await apiClient.post('/api/users/register', formData);
-        alert('User registered successfully');
+        alert('User was successfully added');
         } catch (error) {
-        alert('Error registering user');
+        alert('Error adding a user');
         }
     };
 

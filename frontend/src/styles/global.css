@@ -2,7 +2,7 @@
 body {
   margin: 0; 
   font-family: 'Arial', sans-serif; 
-  background: linear-gradient(to right, #c69fd6, #891fb3); 
+  background: linear-gradient(to right, #02f854,#0dd851,#092712); 
   color: #333; 
   line-height: 1.6;
   }
@@ -92,7 +92,7 @@ body {
   .user-card h3 {
     margin: 0;
     font-size: 1.2rem;
-    color: #d32f2f;
+    color: #2fd34a;
   }
   
   .user-card p {
@@ -122,7 +122,7 @@ body {
   }
   
   form button {
-    background-color: #d32f2f;
+    background-color: #32c262;
     color: white;
     font-weight: bold;
     border: none;
@@ -130,11 +130,11 @@ body {
   }
   
   form button:hover {
-    background-color: #b71c1c;
+    background-color: #15a82e;
   }
   
   /* Home and Lists */
-  .home, .users-list {
+  .courses, .users-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -182,4 +182,14 @@ body {
     font-weight: bold;
   }
   
-  
+  .home { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 50vh; /* Ajusta la altura según tus necesidades */ }
+
+    .home p { 
+      max-width: 600px;/* Ajusta el ancho máximo según tus necesidades */ 
+      margin: 0 auto;}

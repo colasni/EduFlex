@@ -15,9 +15,9 @@ const AddCourse: React.FC = () => {
         e.preventDefault();
         try {
         await apiClient.post('/api/Course', formData);
-        alert('Recipe added successfully');
+        alert('Course added successfully');
         } catch (error) {
-        alert('Error adding recipe');
+        alert('Error adding Course');
         }
     };
 
